@@ -48,8 +48,8 @@
 							</article>
 
 								<ul>
-								
-								{% for post in site.posts %}
+
+								{% for post in paginator.posts %}
 
 								<li><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
 								<p>{{ post.excerpt }}</p></li>
