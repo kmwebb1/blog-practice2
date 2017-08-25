@@ -47,15 +47,15 @@
 								</header>
 							</article>
 
-								<ul>
+<ul>
 
-								{% for post in paginator.posts %}
+{% for post in site.posts %}
 
-								<li><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
-								<p>{{ post.excerpt }}</p></li>
+<li><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+<p>{{ post.excerpt }}</p></li>
 
-								{% endfor %}
-								</ul>
+{% endfor %}
+</ul>
 
 		
 
