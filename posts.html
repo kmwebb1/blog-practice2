@@ -55,7 +55,7 @@
 
 				{% for post in site.posts %}
 
-				<li><a href="{{ post.url }}"><strong>{{ post.title }} {{ post.date | date: "%B %-d, %Y" }}</strong></a>
+				<li><a href="{{ post.url }}"><strong>{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</strong></a>
 				<p>{{ post.excerpt }}</p></li>
 
 				{% endfor %}
