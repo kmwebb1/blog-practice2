@@ -1,5 +1,6 @@
 ---
 title: Lorem Ipsum Dolor Sit Amet
+date: 2014-08-20
 featured: /assets/images/pic02.jpg
 layout: post
 ---
