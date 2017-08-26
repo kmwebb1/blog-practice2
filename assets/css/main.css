@@ -1665,7 +1665,7 @@
 		#banner header {
 			background-color: #252122;
 			background-color: rgba(34, 30, 31, 0.98);
-			opacity: 0
+			opacity: 1
 		}
 
 			#banner header h2 {
